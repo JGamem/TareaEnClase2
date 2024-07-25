@@ -6,6 +6,9 @@ import umg.principal.grupo1.VolumenCubo;
 import umg.principal.grupo2.AreaPiramide;
 import umg.principal.grupo2.AreaTriangulo;
 import umg.principal.grupo2.VolumenPiramide;
+import umg.principal.grupo3.AreaParalelogramo;
+import umg.principal.grupo3.VolumenCilindro;
+import umg.principal.grupo3.VolumenPrisma;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -26,5 +29,13 @@ public class Main {
         volumenPiramide.ResultVolumenPiramide();
         AreaTriangulo areaTriangulo =new AreaTriangulo();
         areaTriangulo.ResultAreaTriangulo();
+
+        //Grupo 3
+        VolumenPrisma volumenPrisma = new VolumenPrisma();
+        volumenPrisma.ResultadoVolumenPrisma();
+        AreaParalelogramo areaParalelogramo = new AreaParalelogramo();
+        areaParalelogramo.ResultAreaParalelogramo();
+        VolumenCilindro volumenCilindro = new VolumenCilindro();
+        volumenCilindro.ResVolumenCilindro();
     }
 }
